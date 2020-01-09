@@ -11,7 +11,7 @@
 .topmain{
     width: 100%;
     padding-bottom: 50px;
-    background-image: url(../images/CqgNOl3zIzeAeBiNAAAAAAAAAAA1169186.ambannerft.jpg);
+    background-image: url(../images/topredbac.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #be0203;
@@ -110,10 +110,10 @@
             width: 30%;
             height: 20px;
             vertical-align: middle;
-            @include backgroundimage(url(../images/CqgNOl3zIzeAeBiNAAAAAAAAAAA1169186.left.png), 0, 0)
+            @include backgroundimage(url(../images/coamleft.png), 0, 0)
         }
         small a:nth-child(3){
-            @include backgroundimage(url(../images/CqgNOl3zIzeAeBiNAAAAAAAAAAA1169186.right.png), 0, 0)
+            @include backgroundimage(url(../images/comeright2.png), 0, 0)
         }
         small a:nth-child(3){
             background-position:right;
@@ -271,33 +271,33 @@
     .main_topsearch_ul-li3 a{
         width: 23px;
         height: 60px;
-       @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-9.png), 0px,20px )
+       @include backgroundimage(url(../images/searchimg.png), 0px,20px )
     }
     .main_topsearch_ul-li3{
         &:hover  a{
-            @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.redsearch.png), 0px,20px)   
+            @include backgroundimage(url(../images/searchimg2.png), 0px,20px)   
         }
     }
     .main_topsearch_ul-li2>a{
         margin-top: 16px;
         width: 15px;
         height: 25px;
-       @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-4_03.png), 0px,1px )
+       @include backgroundimage(url(../images/jlt1.png), 0px,1px )
     }
     .main_topsearch_ul-li2{
        &:hover a{
-            @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-4_03.png), 0px,-24px )
+            @include backgroundimage(url(../images/jlt1.png), 0px,-24px )
         }
     }
     .main_topsearch_ul-li1 a{
         height: 16px;
         width: 17px;
         margin-top: 22px;
-        @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-5_03.png), 0px,2px )
+        @include backgroundimage(url(../images/jlt2.png), 0px,2px )
     }
     .main_topsearch_ul-li1{
         &:hover a{
-            @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-5_03.png), 0px,-14px )
+            @include backgroundimage(url(../images/jlt2.png), 0px,-14px )
         }
      }
 }
@@ -331,7 +331,7 @@
               line-height: 25px;
               margin-top: 0px;
               margin: 0px 5px;
-              @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-3_11.jpg), 0px, 10px)
+              @include backgroundimage(url(../images/redbox.jpg), 0px, 10px)
            }
           a:hover{
             color: red;
@@ -366,7 +366,7 @@
               font-size: 14px;
               line-height: 25px;
               margin-top: 0px;
-              @include backgroundimage(url(../images/CqgNOl0-aB2AZr1jAAAAAAAAAAA7296456.icon-3_11.jpg), 0px, 10px)
+              @include backgroundimage(url(../images/redbox.jpg), 0px, 10px)
           }
       }
     }
