@@ -35,6 +35,12 @@
             color: red;
         }
     }
+    .main_topsearch_ul2{
+        background-color: red;
+        a:hover{
+            color: white;
+        }
+    }
     .main_topsearch_ul-li{
         position: relative;
          img{
@@ -92,7 +98,7 @@
   bottom: -115px;
   width: 460px;
   text-align: center;
-  background-color: #969090;
+  background-color: #d6cbcb;
   ul{
       height: 140px;
       margin-top: 15px;
@@ -125,7 +131,7 @@
     left: -60px;
     text-align: center;
     padding: 18px 0px;
-    background-color: #969090;
+    background-color: #e7d6d6;
     ul{
     display: flex;
     align-items: center;
@@ -205,6 +211,9 @@
             color: #333333;
             font-size: 26px;
             border-bottom: 1px dashed #999999;
+            &:hover{
+                color: #e63030;
+            }
         }
         b{
             float: right;
